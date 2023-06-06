@@ -1,13 +1,16 @@
 # dynamic-call-graph
 
-```shell
-valgrind --tool=callgrind --tree=both ./week1 ../pride-and-prejudice.txt
-```
+
+## Example 1
 
 ```shell
-dot -Tpng ./output.dot -o output.png
+python3 create_callgrind_output.py ./pride_and_prejudice.txt
+python3 gprof2img.py ./pride_and_prejudice.txt
 ```
 
+## Example 2
+
 ```shell
-gprof2dot -f callgrind callgrind.out.916  -o output916.dot
+python3 create_callgrind_output.py ./lorem_ipsum.txt
+python3 gprof2img.py ./lorem_ipsum.txt
 ```
