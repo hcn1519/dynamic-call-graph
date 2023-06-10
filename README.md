@@ -24,8 +24,19 @@ python3 gprof2img.py ./lorem_ipsum.txt
 
 ## Dot Layout
 
-![basic-dot](./basic-pride_and_prejudice.png)
+### Basic - Imperative Programming Style
+![basic-dot](./basic-pride_and_prejudice-dot.png)
+
+### Coroutine
+
+![c-dot](./coroutine-pride_and_prejudice-dot.png)
 
 ## SFDP Layout
 
+### Basic - Imperative Programming Style
+
 ![basic-sfdp](./basic-pride_and_prejudice-sfdp.png)
+
+### Coroutine
+
+![c-dot](./coroutine-pride_and_prejudice-dot.png)
